@@ -13,9 +13,16 @@
  *      Orchid - #533743, RGB 83, 55, 67
  *      Dark Purple - #2E262A, RGB 46, 38, 42
  * Main Font Color
- *      Light Grey/Green - #919692, RGB 145, 150, 146
+ *      Light Grey/Green - #D8DADA, RGB 216, 218, 218
  */
 
 body {
     box-sizing: border-box;
+    background-color: #212723;
+    color: #D8DADA;
 }
+
+#header {
+    background-color: #2F4738;
+}
+
