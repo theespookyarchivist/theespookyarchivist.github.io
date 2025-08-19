@@ -1,0 +1,21 @@
+/* Color Pallette
+ * Main Pallette
+ *      Black - #0F100F, RGB 15, 16, 15
+ *      Dark Green - #212723, RGB 33, 39, 35
+ *      Mid Green - #2F4738, RGB 47, 71, 56
+ *      Light Green - #306D47, RGB 48, 109, 71
+ *      Lightest Green - #20974D, RGB 32, 151, 77
+ * Secondary Pallette
+ *      Orange/Tan - #966E43, RGB 150, 110, 67
+ *      Brown - #625240, RGB 98, 82, 64
+ *      Hot Pink - #B22661, RGB 178, 38, 97
+ *      Dark Pink - #803957, RGB 128, 57, 87
+ *      Orchid - #533743, RGB 83, 55, 67
+ *      Dark Purple - #2E262A, RGB 46, 38, 42
+ * Main Font Color
+ *      Light Grey/Green - #919692, RGB 145, 150, 146
+ */
+
+body {
+    box-sizing: border-box;
+}
