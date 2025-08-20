@@ -31,16 +31,39 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    display: inline-flex;
+}
+
+#headerSection1 {
+    width: 50%;
+    border-top: 4px solid #B22661;
+    border-left: 4px solid #B22661;
+    border-bottom: 4px solid #212723;
 }
 
 #headerSection1 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: Amarante, 'Lucida Sans', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 2%;
 }
 
 #headerSection1 h2 {
     color: #0F100F;
     margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+#headerSection2 {
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    border-right: 4px solid #B22661;
+    border-bottom: 4px solid #B22661;
+    border-top: 4px solid #212723;
 }
 
 #headerSection2 p {
