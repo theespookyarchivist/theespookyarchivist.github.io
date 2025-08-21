@@ -115,6 +115,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    line-height: 25px;
 }
 
 .projectBox h3 {
@@ -138,6 +139,11 @@ body {
     color: rgba(178, 38, 97, 0.8);
     background-color: rgba(15, 16, 15, 0.8);
     border-radius: 5px;
+}
+
+.projectBoxLink:hover {
+    background-color: #2E262A;
+    color: #2F4738;
 }
 
 #project1 h3 {
@@ -169,6 +175,32 @@ body {
     border-left: 3px solid #0F100F;
     border-bottom: 3px solid #0F100F;
     padding-bottom: 1%;
+}
+
+#contactForm {
+    padding-left: 3%;
+    line-height: 25px;
+}
+
+#firstName, #lastName, #email, #phone {
+    width: 50%;
+}
+
+#emailPreference, #phonePreference {
+    margin-right: 1%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+
+#submit {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    width: 30%;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgba(15, 16, 15, 0.8);
+    color: rgba(179, 38, 97, 0.8);
 }
 
 #footer {
